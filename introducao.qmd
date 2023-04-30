@@ -1,0 +1,24 @@
+# Introdução {#sec-introducao}
+
+Seu texto aqui. Seu texto aqui. Seu texto aqui. Seu texto aqui. Seu texto aqui. Seu texto aqui. Seu texto aqui. Seu texto aqui. Seu texto aqui. Seu texto aqui. Seu texto aqui. Seu texto aqui. Seu texto aqui. Seu texto aqui. Seu texto aqui. Seu texto aqui. Seu texto aqui. Seu texto aqui. Seu texto aqui. Seu texto aqui. Seu texto aqui. Seu texto aqui. Seu texto aqui. Seu texto aqui. Seu texto aqui. Seu texto aqui. Seu texto aqui. Seu texto aqui. Seu texto aqui. Seu texto aqui. Seu texto aqui.
+
+Conforme informações na tabela abaixo:
+
+```{r}
+#| warning: false
+#| message: false
+#| code-fold: true
+
+library(dados)
+library(reactable)
+library(tidyverse)
+
+dados_gapminder |> 
+  select(continente,pais,ano,populacao) |> 
+  reactable(
+    groupBy = "continente",
+    searchable = TRUE, 
+    outlined = TRUE)
+```
+
+Saiba mais no @sec-desenvolvimento.

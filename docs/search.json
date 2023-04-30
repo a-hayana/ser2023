@@ -1,0 +1,44 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Contando histórias com Quarto",
+    "section": "",
+    "text": "Apresentação\nEste é um livro desenvolvido em Quarto.\nPara saber mais sobre os livros Quarto, visite https://quarto.org/docs/books."
+  },
+  {
+    "objectID": "introducao.html",
+    "href": "introducao.html",
+    "title": "1  Introdução",
+    "section": "",
+    "text": "Seu texto aqui. Seu texto aqui. Seu texto aqui. Seu texto aqui. Seu texto aqui. Seu texto aqui. Seu texto aqui. Seu texto aqui. Seu texto aqui. Seu texto aqui. Seu texto aqui. Seu texto aqui. Seu texto aqui. Seu texto aqui. Seu texto aqui. Seu texto aqui. Seu texto aqui. Seu texto aqui. Seu texto aqui. Seu texto aqui. Seu texto aqui. Seu texto aqui. Seu texto aqui. Seu texto aqui. Seu texto aqui. Seu texto aqui. Seu texto aqui. Seu texto aqui. Seu texto aqui. Seu texto aqui. Seu texto aqui.\nConforme informações na tabela abaixo:\n\n\nCódigo\nlibrary(dados)\nlibrary(reactable)\nlibrary(tidyverse)\n\ndados_gapminder |&gt; \n  select(continente,pais,ano,populacao) |&gt; \n  reactable(\n    groupBy = \"continente\",\n    searchable = TRUE, \n    outlined = TRUE)\n\n\n\n\n\n\n\nSaiba mais no Capítulo 2."
+  },
+  {
+    "objectID": "desenvolvimento.html#novo-tópico",
+    "href": "desenvolvimento.html#novo-tópico",
+    "title": "2  Desenvolvimento",
+    "section": "2.1 Novo tópico",
+    "text": "2.1 Novo tópico\nSeu texto aqui. Seu texto aqui. Seu texto aqui. Seu texto aqui. Seu texto aqui. Seu texto aqui. Seu texto aqui. Seu texto aqui. Seu texto aqui. Seu texto aqui. Seu texto aqui. Seu texto aqui. Seu texto aqui. Seu texto aqui. Seu texto aqui. Seu texto aqui. Seu texto aqui. Seu texto aqui. Seu texto aqui. Seu texto aqui. Seu texto aqui. Seu texto aqui. Seu texto aqui. Seu texto aqui.\n\nAba 1Aba 2Código\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n::: panel-tabset\n## Aba 1\n\n![](img/img1.png){fig-align=\"center\"}\n\n## Aba 2\n\n![](img/img2.png){fig-align=\"center\"}\n:::"
+  },
+  {
+    "objectID": "desenvolvimento.html#exemplos-exercícios-e-outros",
+    "href": "desenvolvimento.html#exemplos-exercícios-e-outros",
+    "title": "2  Desenvolvimento",
+    "section": "2.2 Exemplos, exercícios e outros",
+    "text": "2.2 Exemplos, exercícios e outros\n\n2.2.1 Exemplos\nConforme o Exemplo 2.1, seu texto aqui. Seu texto aqui. Seu texto aqui. Seu texto aqui. Seu texto aqui. Seu texto aqui. Seu texto aqui. Seu texto aqui. Seu texto aqui. Seu texto aqui. Seu texto aqui. Seu texto aqui. Seu texto aqui. Seu texto aqui. Seu texto aqui. Seu texto aqui. Seu texto aqui. Seu texto aqui. Seu texto aqui. Seu texto aqui. Seu texto aqui. Seu texto aqui. Seu texto aqui. Seu texto aqui.\n\nExemplo 2.1 Para inserir uma fórmula, basta adicionar dois sinais de dólar ($) no início e no final da expressão matemática. Veja a Equação 2.1:\n\\[x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a} \\tag{2.1}\\]\n\n\n\n2.2.2 Exercícios\nAqui estão os exercícios propostos:\n\nExercício 2.1 Suponha que as notas de uma turma de 5 alunos foram: 6, 7, 8, 9 e 10. Calcule a média.\n\n\n\n\n\n\n\nSolução\n\n\n\nPara calcular a média das notas, podemos usar a seguinte fórmula:\nMédia = \\(\\frac{\\text{soma das notas}}{\\text{número de alunos}}\\)\nPara calcular a média, podemos seguir os seguintes passos:\nSoma = \\(6 + 7 + 8 + 9 + 10 = 40\\)\nMédia = \\(\\frac{\\text{soma}}{\\text{número de alunos}} = \\frac{40}{5} = 8\\)\nPortanto, a média das notas da turma é 8."
+  },
+  {
+    "objectID": "desenvolvimento.html#citações",
+    "href": "desenvolvimento.html#citações",
+    "title": "2  Desenvolvimento",
+    "section": "2.3 Citações",
+    "text": "2.3 Citações\n\n2.3.1 Citar livro\n\nSegundo os autores Wickham e Grolemund (2016), …\n\n\n\n2.3.2 Citar pacotes\n\n(Quiroga et al. 2022), (Allaire 2022), (Wickham et al. 2019), (Lin 2022), (Chang et al. 2022)\n\n\n\n\n\nAllaire, JJ. 2022. «quarto: R Interface to ’Quarto’ Markdown Publishing System». https://CRAN.R-project.org/package=quarto.\n\n\nChang, Winston, Joe Cheng, JJ Allaire, Carson Sievert, Barret Schloerke, Yihui Xie, Jeff Allen, Jonathan McPherson, Alan Dipert, e Barbara Borges. 2022. «shiny: Web Application Framework for R». https://CRAN.R-project.org/package=shiny.\n\n\nLin, Greg. 2022. «reactable: Interactive Data Tables Based on ’React Table’». https://CRAN.R-project.org/package=reactable.\n\n\nQuiroga, Riva, Sara Mortara, Beatriz Milz, Andrea Sánchez-Tapia, Alejandra Andrea Tapia Silva, Beatriz Maurer Costa, Jean Prado, Renata Hirota, William Amorim, e Emmanuelle Rodrigues Nunes. 2022. «dados: Translate Datasets to Portuguese». https://CRAN.R-project.org/package=dados.\n\n\nWickham, Hadley, Mara Averick, Jennifer Bryan, Winston Chang, Lucy D’Agostino McGowan, Romain François, Garrett Grolemund, et al. 2019. «Welcome to the tidyverse» 4: 1686. https://doi.org/10.21105/joss.01686.\n\n\nWickham, Hadley, e Garrett Grolemund. 2016. R for data science: import, tidy, transform, visualize, and model data. \" O’Reilly Media, Inc.\"."
+  },
+  {
+    "objectID": "referencias.html",
+    "href": "referencias.html",
+    "title": "Referências",
+    "section": "",
+    "text": "Allaire, JJ. 2022. “Quarto: R Interface to ’Quarto’ Markdown\nPublishing System.” https://CRAN.R-project.org/package=quarto.\n\n\nChang, Winston, Joe Cheng, JJ Allaire, Carson Sievert, Barret Schloerke,\nYihui Xie, Jeff Allen, Jonathan McPherson, Alan Dipert, and Barbara\nBorges. 2022. “Shiny: Web Application Framework for r.” https://CRAN.R-project.org/package=shiny.\n\n\nLin, Greg. 2022. “Reactable: Interactive Data Tables Based on\n’React Table’.” https://CRAN.R-project.org/package=reactable.\n\n\nQuiroga, Riva, Sara Mortara, Beatriz Milz, Andrea Sánchez-Tapia,\nAlejandra Andrea Tapia Silva, Beatriz Maurer Costa, Jean Prado, Renata\nHirota, William Amorim, and Emmanuelle Rodrigues Nunes. 2022.\n“Dados: Translate Datasets to Portuguese.” https://CRAN.R-project.org/package=dados.\n\n\nWickham, Hadley, Mara Averick, Jennifer Bryan, Winston Chang, Lucy\nD’Agostino McGowan, Romain François, Garrett Grolemund, et al. 2019.\n“Welcome to the Tidyverse” 4:\n1686. https://doi.org/10.21105/joss.01686.\n\n\nWickham, Hadley, and Garrett Grolemund. 2016. R for Data Science:\nImport, Tidy, Transform, Visualize, and Model Data. \" O’Reilly\nMedia, Inc.\"."
+  }
+]

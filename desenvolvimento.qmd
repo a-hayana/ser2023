@@ -1,0 +1,77 @@
+# Desenvolvimento {#sec-desenvolvimento}
+
+Dando continuidade ao que foi apresentado no @sec-introducao, este capítulo aborda novos tópicos.
+
+## Novo tópico
+
+Seu texto aqui. Seu texto aqui. Seu texto aqui. Seu texto aqui. Seu texto aqui. Seu texto aqui. Seu texto aqui. Seu texto aqui. Seu texto aqui. Seu texto aqui. Seu texto aqui. Seu texto aqui. Seu texto aqui. Seu texto aqui. Seu texto aqui. Seu texto aqui. Seu texto aqui. Seu texto aqui. Seu texto aqui. Seu texto aqui. Seu texto aqui. Seu texto aqui. Seu texto aqui. Seu texto aqui.
+
+::: panel-tabset
+## Aba 1
+
+![](img/img1.png){fig-align="center"}
+
+## Aba 2
+
+![](img/img2.png){fig-align="center"}
+
+## Código
+
+``` md
+::: panel-tabset
+## Aba 1
+
+![](img/img1.png){fig-align="center"}
+
+## Aba 2
+
+![](img/img2.png){fig-align="center"}
+:::
+```
+:::
+
+## Exemplos, exercícios e outros
+
+### Exemplos
+
+Conforme o @exm-x, seu texto aqui. Seu texto aqui. Seu texto aqui. Seu texto aqui. Seu texto aqui. Seu texto aqui. Seu texto aqui. Seu texto aqui. Seu texto aqui. Seu texto aqui. Seu texto aqui. Seu texto aqui. Seu texto aqui. Seu texto aqui. Seu texto aqui. Seu texto aqui. Seu texto aqui. Seu texto aqui. Seu texto aqui. Seu texto aqui. Seu texto aqui. Seu texto aqui. Seu texto aqui. Seu texto aqui.
+
+::: {#exm-x}
+Para inserir uma fórmula, basta adicionar dois sinais de dólar (\$) no início e no final da expressão matemática. Veja a @eq-mat:
+
+$$x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$$ {#eq-mat}
+:::
+
+### Exercícios
+
+Aqui estão os exercícios propostos:
+
+::: {#exr-x}
+Suponha que as notas de uma turma de 5 alunos foram: 6, 7, 8, 9 e 10. Calcule a média.
+:::
+
+::: callout-note
+## Solução
+
+Para calcular a média das notas, podemos usar a seguinte fórmula:
+
+Média = $\frac{\text{soma das notas}}{\text{número de alunos}}$
+
+Para calcular a média, podemos seguir os seguintes passos:
+
+Soma = $6 + 7 + 8 + 9 + 10 = 40$
+
+Média = $\frac{\text{soma}}{\text{número de alunos}} = \frac{40}{5} = 8$
+
+Portanto, a média das notas da turma é 8.
+:::
+
+## Citações
+
+### Citar livro
+
+- Segundo os autores @r4ds, ...
+
+### Citar pacotes
+
+-   [@dados], [@quarto], [@tidyverse], [@reactable], [@shiny]

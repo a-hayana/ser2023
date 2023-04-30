@@ -1,0 +1,48 @@
+project:
+  type: book
+  output-dir: docs 
+
+bibliography: references.bib # Referências
+lang: pt # Idioma: português (pt)
+
+
+book:
+  title: "Contando histórias com Quarto" # Título do livro
+  subtitle: "Quarto Book" # Subtítulo do livro
+  author: 
+    - name: "Ariane Hayana" # Nome Autor(a) 1
+      orcid: "0000-0000-0000-0000" # ORCID Autor(a) 1
+    - name: "Autor 2" # Nome Autor(a) 2
+      orcid: "0000-0000-0000-0000" # ORCID Autor(a) 2
+    - name: "Autor 3" # Nome Autor(a) 3
+      orcid: "0000-0000-0000-0000" # ORCID Autor(a) 3     
+  date: "04/28/2023" # Inserir no formato mm/dd/yyyy
+  favicon: logo.png # Ícone na aba do navegador
+
+  sidebar: 
+    style: docked # Estilo: 'docked' ou 'floating'
+  search: true
+  repo-url: https://github.com/a-hayana/ # Url do repositório 
+  sharing: [twitter, facebook, linkedin] # Redes que deseja compartilhar
+  reader-mode: true # Se 'true', oculta a barra lateral e o sumário
+  page-footer: 
+    left: "SER | Seminário Internacional de Estatística com `R`" # Rodapé esquerdo
+    right: "Por: Ariane Hayana" # Rodapé direito
+  chapters:
+    - index.qmd
+    - introducao.qmd
+    - desenvolvimento.qmd
+    - referencias.qmd
+
+format:
+
+  html:
+    theme:
+      light: [united,theme.scss]
+      dark: superhero
+    cover-image: logo.png
+
+# Outros temas: https://quarto.org/docs/output-formats/html-themes.html
+
+editor: visual
+
